@@ -1,0 +1,7 @@
+name: Git LFS Fetch
+description: Replaces git clone pulling LFS files with an explicit call to git lfs fetch/pull
+author: https://github.com/triarius
+requirements: []
+configuration:
+  properties: {}
+  additionalProperties: false

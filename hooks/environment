@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -Eeufo pipefail
+
+export GIT_LFS_SKIP_SMUDGE=1
