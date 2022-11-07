@@ -1,6 +1,6 @@
 services:
   lint:
     image: buildkite/plugin-linter
-    command: ['--id', 'trarius/git-lfs-pull']
+    command: ['--id', 'triarius/git-lfs-pull']
     volumes:
       - ".:/plugin:ro"
