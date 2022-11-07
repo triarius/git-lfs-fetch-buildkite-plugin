@@ -6,10 +6,11 @@ Git clone for repos with files larger than the memory of a system the buildkite-
 This plugin automates the workaround described in that Issue. It needs to be added to every step in a pipeline YAML AND the initial pipeline upload step in the pipeline web page.
 
 # Example
-```yml
+
+```yaml
 steps:
   - command: "buildkite-agent pipeline upload"
     label: ":pipeline:"
     plugins:
-      - triarius/git-lfs-pull: {}
+      - triarius/git-lfs-pull#v0.1.0: {}
 ```
