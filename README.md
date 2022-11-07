@@ -1,4 +1,11 @@
 Git LFS Pull Buildkite Plugin
 ===
 
-## WARNING: This plugin is not ready for prime time. Please don't use.
+# Example
+```
+steps:
+  - command: "buildkite-agent pipeline upload"
+    label: ":pipeline:"
+    plugins:
+      - triarius/git-lfs-pull: ~
+```
